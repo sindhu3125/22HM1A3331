@@ -1,0 +1,59 @@
+Server started at 2025-09-06T09:16:39.088Z
+Server started at 2025-09-06T09:17:08.025Z
+{"time":"2025-09-06T09:18:37.728Z","method":"GET","url":"/","ip":"::1"}
+Server started at 2025-09-06T09:22:56.025Z
+{"time":"2025-09-06T09:23:27.694Z","method":"GET","url":"/","ip":"::1"}
+{"time":"2025-09-06T09:24:29.251Z","method":"GET","url":"/","body":{"name":"Ravi Kumar","email":"ravi@example.com"},"ip":"::1"}
+{"time":"2025-09-06T09:27:18.384Z","method":"POST","url":"/shorturls","body":{"url":"https:www.google.cpm","validity":5,"shortcode":"goog1"},"ip":"::1"}
+{"time":"2025-09-06T09:28:01.147Z","method":"GET","url":"/goog1","ip":"::1"}
+{"time":"2025-09-06T09:28:13.369Z","method":"GET","url":"/goog1","ip":"::1"}
+{"time":"2025-09-06T09:30:07.461Z","method":"POST","url":"/shorturls","body":{"url":"https://www.google.com","validity":5,"shortcode":"goog1"},"ip":"::1"}
+{"time":"2025-09-06T09:30:23.864Z","method":"POST","url":"/shorturls","body":{"url":"https://www.google.com","validity":5,"shortcode":"goog2"},"ip":"::1"}
+{"time":"2025-09-06T09:30:37.179Z","method":"GET","url":"/goog2","ip":"::1"}
+{"time":"2025-09-06T09:32:44.114Z","method":"GET","url":"/analytics/goog2","body":{"url":"https://www.google.com","validity":5,"shortcode":"goog2"},"ip":"::1"}
+{"time":"2025-09-06T09:36:12.568Z","method":"GET","url":"/analytics/goog2","body":{"url":"https://www.google.com","validity":5,"shortcode":"goog2"},"ip":"::1"}
+{"time":"2025-09-06T09:36:25.630Z","method":"GET","url":"/analytics/goog2","body":{"url":"https://www.google.com","validity":5,"shortcode":"goog2"},"ip":"::1"}
+Server started at 2025-09-06T09:38:37.891Z
+{"time":"2025-09-06T09:38:44.160Z","method":"GET","url":"/","ip":"::1"}
+{"time":"2025-09-06T09:38:44.200Z","method":"GET","url":"/favicon.ico","ip":"::1"}
+{"time":"2025-09-06T09:38:47.025Z","method":"GET","url":"/","ip":"::1"}
+{"time":"2025-09-06T09:39:16.841Z","method":"GET","url":"/","body":{"url":"https://www.google.com","validity":5,"shortcode":"goog2"},"ip":"::1"}
+{"time":"2025-09-06T09:40:01.448Z","method":"POST","url":"/shorturls","body":{"url":"https://www.google.com","validity":5,"shortcode":"goog1"},"ip":"::1"}
+{"time":"2025-09-06T09:40:37.817Z","method":"GET","url":"/goog1","ip":"::1"}
+{"time":"2025-09-06T09:41:19.756Z","method":"GET","url":"/analytics/goog1","body":{"url":"https://www.google.com","validity":5,"shortcode":"goog1"},"ip":"::1"}
+{"time":"2025-09-06T09:51:52.087Z","method":"POST","url":"/shorturls","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"},"ip":"::1"}
+{"time":"2025-09-06T09:53:24.609Z","method":"GET","url":"/abcd1","ip":"::1"}
+{"time":"2025-09-06T09:55:43.061Z","method":"GET","url":"/shorturls:/abcd1","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"},"ip":"::1"}
+{"time":"2025-09-06T09:57:28.131Z","method":"GET","url":"/shorturls/:abcd1","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"},"ip":"::1"}
+{"time":"2025-09-06T09:57:54.357Z","method":"GET","url":"/shorturls/abcd1","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"},"ip":"::1"}
+{"time":"2025-09-06T10:00:46.267Z","method":"GET","url":"/shorturls/abcd1","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"},"ip":"::1"}
+Server started at 2025-09-06T10:05:06.542Z
+{"time":"2025-09-06T10:05:31.043Z","method":"GET","url":"/","ip":"::1"}
+{"time":"2025-09-06T10:06:26.177Z","method":"POST","url":"/shorturls","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"},"ip":"::1"}
+{"time":"2025-09-06T10:06:31.396Z","method":"GET","url":"/abcd1","ip":"::1"}
+{"time":"2025-09-06T10:06:35.931Z","method":"GET","url":"/abcd1","ip":"::1"}
+{"time":"2025-09-06T10:07:09.045Z","method":"GET","url":"/abcd1","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"},"ip":"::1"}
+{"time":"2025-09-06T10:07:14.525Z","method":"GET","url":"/abcd1","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"},"ip":"::1"}
+{"time":"2025-09-06T10:07:30.741Z","method":"GET","url":"/shorturls/abcd1","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"},"ip":"::1"}
+Server started at 2025-09-06T10:13:00.390Z
+Server started at 2025-09-06T10:21:06.440Z
+{"time":"2025-09-06T10:22:49.728Z","method":"GET","url":"/","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"},"ip":"::1"}
+Server started at 2025-09-06T10:25:17.013Z
+{"time":"2025-09-06T10:25:38.944Z","method":"GET","url":"/","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"},"ip":"::1"}
+{"time":"2025-09-06T10:25:53.972Z","method":"POST","url":"/shorturls","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"},"ip":"::1"}
+{"time":"2025-09-06T10:26:16.524Z","method":"POST","url":"/shorturls/abcd1","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"},"ip":"::1"}
+{"time":"2025-09-06T10:26:23.363Z","method":"GET","url":"/shorturls/abcd1","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"},"ip":"::1"}
+{"time":"2025-09-06T10:27:37.388Z","method":"GET","url":"/shorturls","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"},"ip":"::1"}
+{"time":"2025-09-06T10:27:42.534Z","method":"POST","url":"/shorturls","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"},"ip":"::1"}
+{"time":"2025-09-06T10:27:53.912Z","method":"POST","url":"/shorturls","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"},"ip":"::1"}
+{"time":"2025-09-06T10:28:02.892Z","method":"POST","url":"/shorturls","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd2"},"ip":"::1"}
+{"time":"2025-09-06T10:28:23.600Z","method":"GET","url":"/abcd1","ip":"::1"}
+{"time":"2025-09-06T10:28:32.798Z","method":"GET","url":"/abcd2","ip":"::1"}
+{"time":"2025-09-06T10:29:17.292Z","method":"GET","url":"/abcd2","ip":"::1"}
+{"time":"2025-09-06T10:29:36.543Z","method":"POST","url":"/shorturls","ip":"::1"}
+{"time":"2025-09-06T10:30:55.511Z","method":"POST","url":"/shorturls","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domaia-really-log-page","validity":30,"shortcode":"abcd1"},"ip":"::1"}
+{"time":"2025-09-06T10:31:03.068Z","method":"POST","url":"/shorturls","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domaia-really-log-page","validity":30,"shortcode":"abcd2"},"ip":"::1"}
+{"time":"2025-09-06T10:31:22.098Z","method":"POST","url":"/shorturls","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domaia-really-log-page","validity":30,"shortcode":"abcd3"},"ip":"::1"}
+{"time":"2025-09-06T10:32:10.999Z","method":"GET","url":"/abcd3","ip":"::1"}
+{"time":"2025-09-06T10:32:36.523Z","method":"GET","url":"/shorturls/abcd1","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domaia-really-log-page","validity":30,"shortcode":"abcd3"},"ip":"::1"}
+{"time":"2025-09-06T10:32:55.808Z","method":"GET","url":"/shorturls/abcd1","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domaia-really-log-page","validity":30,"shortcode":"abcd3"},"ip":"::1"}
